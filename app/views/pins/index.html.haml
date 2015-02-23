@@ -5,5 +5,9 @@
 			.panel-body
 			%h2= link_to pin.title, pin
 			%p.user
+				%span.glyphicon.glyphicon-heart.red
+				= pin.get_upvotes.size
 				Submitted by
+				%br
+				= image_tag pin.user.avatar.url(:thumb), class: "round-image-25"
 				= pin.user.email
