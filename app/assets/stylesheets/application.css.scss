@@ -19,7 +19,7 @@
  @import "bootstrap";
 
  body {
-	background: #E9E9E9;
+	background: #FBFFF7;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,9 +27,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav {
+	background-color: #E6FFE6;
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
 	.navbar-brand {
 		a {
+			margin-left: 50px;
 			color: #BD1E23;
 			font-weight: bold;
 			&:hover {
@@ -38,6 +40,7 @@ nav {
 		}
 	}
 }
+
 img {
 	border-radius: 7px;
 }
@@ -125,6 +128,7 @@ textarea {
 
 .round-image-30 {
 	margin-top: 10px; 
+	margin-right: 10px;
   background-color: white;
   border: 1px solid #d9d9d9;
   border-radius: 25px;
