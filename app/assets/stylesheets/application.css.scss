@@ -184,3 +184,34 @@ textarea {
   text-align: center;
   img { width: 100% }
 }
+
+.carousel {
+    height: 50%;
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100% !important;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.carousel {
+	width: 100% !important;
+}
+
+
+
+
+
+
+
