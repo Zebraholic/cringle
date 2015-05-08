@@ -11,6 +11,7 @@
 
           <div class="form-group">
             <%= f.label :avatar %><br />
+            <%= image_tag current_user.avatar.url(:medium), class: "round-image-75" %>
             <%= f.file_field :avatar %>
           </div>
 

@@ -112,8 +112,8 @@ a:hover {
 	}
 	.pin_image {
 		img {
-			max-width: 100%;
-			width: 100%;
+			padding-top: 30px;
+			padding-bottom: 30px;	
 			display: block;
 			margin: 0 auto;
 		}
@@ -172,3 +172,15 @@ textarea {
   img { width: 100% }
 }
 
+.round-image-75 {
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  border-radius: 50px;
+  -moz-border-radius: 50px; 
+  -webkit-border-radius: 50x;
+  height: 75px;
+  width: 75px;
+  overflow: hidden;
+  text-align: center;
+  img { width: 100% }
+}
